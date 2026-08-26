@@ -4,7 +4,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import Dashboard from './components/Dashboard';
 import { collectTelemetry } from './components/TelemetryCollector';
-import { RiskResponse } from './types';
+import type { RiskResponse } from './types';
 
 interface DashboardData {
   total_requests: number;
