@@ -4,13 +4,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import Dashboard from './components/Dashboard';
 import { collectTelemetry } from './components/TelemetryCollector';
-
-interface RiskResponse {
-  risk_score: number;
-  classification: string;
-  decision: string;
-  confidence: number;
-}
+import { RiskResponse } from './types';
 
 interface DashboardData {
   total_requests: number;
